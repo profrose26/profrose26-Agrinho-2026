@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#dff5d8;
+    text-align:center;
+    margin:0;
+}
+
+.container{
+    max-width:700px;
+    margin:auto;
+    padding:30px;
+}
+
+h1{
+    color:#2e7d32;
+}
+
+.placar{
+    background:white;
+    padding:15px;
+    border-radius:10px;
+    margin:20px;
+}
+
+button{
+    padding:15px;
+    margin:10px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+
+#resultado{
+    margin-top:20px;
+    font-size:20px;
+    font-weight:bold;
+}
